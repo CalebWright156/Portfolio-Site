@@ -7,11 +7,12 @@ import Library from '../public/assets/projects/Library.PNG'
 import TaskManager from '../public/assets/projects/TaskManager.PNG'
 import ComingSoon from '../public/assets/projects/ComingSoon.jpg'
 import PersonalSite from '../public/assets/projects/Personal.jpg'
+import Image from 'next/image'
 
 
 const Projects = () => {
   return (
-    <div className='w-full m-5'>
+    <div id='projects' className='w-auto m-5'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <p className='text-xl tracking-widest uppercase text-[#5aa2c9] font-bold'>Projects</p>
             <h2 className='py-4'>Finished Projects/Future Endeavours</h2>
@@ -20,58 +21,51 @@ const Projects = () => {
                 image={Calculator}
                 title={'Basic Calculator'}
                 builtWith={'React JS'}
-                description={'Basic calculator that can perform mathematic operations. Built with React JS using components and useState hooks'}
-                linkToCode={'https://github.com/CalebWright156/Calculator-React'}
+                linkToCode={'/calc'}
               />
               
               <ProjectCard 
                 image={ExpenseTracker}
                 title={'Monthly Expenses Tracker'}
                 builtWith={'React JS'}
-                description={'Expense tracker where you can add and remove transactions that will be automatically updated. Built with React JS using useState hooks and Context API'}
-                linkToCode={'https://github.com/CalebWright156/Monthly-Expenses'}
+                linkToCode={'/monthlyExpenses'}
               />
 
               <ProjectCard 
                 image={Form}
                 title={'Javascript Form'}
                 builtWith={'Javascript and SASS'}
-                description={'Javascript form employing DOM manipulation and SASS features'}
-                linkToCode={'https://github.com/CalebWright156/Javascript-Form'}
+                linkToCode={'/javascriptForm'}
               />
 
               <ProjectCard 
                 image={Library}
                 title={'Library app'}
                 builtWith={'Typescript and Bootstrap'}
-                description={'Library that utilises that displays form entered data into a table. User can add and delete books as well as have their books saved on localstorage'}
-                linkToCode={'https://github.com/CalebWright156/Library'}
+                linkToCode={'calc'}
               />
 
               <ProjectCard 
                 image={TaskManager}
                 title={'Task Manager'}
                 builtWith={'React JS'}
-                description={'Task Manager allowing the user basic CRUD applications for their tasks. Tasks can be added to a list with a reminder feature and the ability to delete tasks once completed.'}
-                linkToCode={'https://github.com/CalebWright156/Task-Manager'}
-              />
-
-              <ProjectCard 
-                image={ComingSoon}
-                title={'Task Manager'}
-                builtWith={'React JS'}
-                description={'Task Manager allowing the user basic CRUD applications for their tasks. Tasks can be added to a list with a reminder feature and the ability to delete tasks once completed.'}
-                linkToCode={'/'}
-              />
-
-              <ProjectCard 
+                linkToCode={'calc'}
+              />             
+              
+               <ProjectCard 
                 image={PersonalSite}
                 title={'This Website!!'}
                 builtWith={'NextJs and Tailwind'}
-                description={'This website was made with Nextjs with lazy image loading and custom tailwind for the stylings and responsiveness'}
-                linkToCode={'https://github.com/CalebWright156/Portfolio-Site'}
+                linkToCode={'calc'}
               />
 
+              <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-600 rounded-xl group hover:bg-gradient-to-r from-[#335262] to-[#2b3242]'>
+                <Image className='rounded-xl group-hover:opacity-10' src={ComingSoon} alt='' />
+                <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
+                  <h3 className='text-2xl text-white tracking-wider text-center'>{'Coming Soon'}</h3> 
+                  <p className='pb-4 pt-2 text-white text-center'>Future Projects Coming Soon</p>
+                </div>
+              </div>
             </div>
         </div>  
     </div>
