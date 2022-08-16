@@ -4,7 +4,7 @@ import SkillImage from './SkillImage'
 
 const Skills = () => {
   return (
-    <div className='w-full lg:h-screen p-2'>
+    <div className='w-full lg:h-screen p-10'>
         <div className='max-w-p[1240px] mx-auto flex flex-col justify-center h-full'>
             <p className='text-xl tracking-widest uppercase text-[#5aa2c9] font-bold'>Skills</p>
             <h2 className='py-4'>What I Can Do</h2>
