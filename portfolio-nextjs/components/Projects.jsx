@@ -42,21 +42,21 @@ const Projects = () => {
                 image={Library}
                 title={'Library app'}
                 builtWith={'Typescript and Bootstrap'}
-                linkToCode={'calc'}
+                linkToCode={'/library'}
               />
 
               <ProjectCard 
                 image={TaskManager}
                 title={'Task Manager'}
                 builtWith={'React JS'}
-                linkToCode={'calc'}
+                linkToCode={'/taskManager'}
               />             
               
                <ProjectCard 
                 image={PersonalSite}
                 title={'This Website!!'}
                 builtWith={'NextJs and Tailwind'}
-                linkToCode={'calc'}
+                linkToCode={'/portfolio'}
               />
 
               <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-600 rounded-xl group hover:bg-gradient-to-r from-[#335262] to-[#2b3242]'>

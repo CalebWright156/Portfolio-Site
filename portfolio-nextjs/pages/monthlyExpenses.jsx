@@ -1,6 +1,6 @@
 import React from 'react'
 import Pages from '../components/Pages'
-import Expenses from '../public/assets/projects/Expense.PNG'
+import Expenses from '../public/assets/projects/ExpensePage.PNG'
 
 
 const monthlyExpenses = () => {

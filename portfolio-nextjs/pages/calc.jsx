@@ -1,5 +1,5 @@
 import React from 'react'
-import Calculator from '../public/assets/projects/Calculator.PNG'
+import Calculator from '../public/assets/projects/CalculatorPage.PNG'
 import Pages from '../components/Pages'
  
 
