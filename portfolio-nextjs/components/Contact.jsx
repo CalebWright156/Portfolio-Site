@@ -44,28 +44,28 @@ const Contact = () => {
                 {/* Right side */}
                 <div className='col-span-3 w-full bg-[#CFCFCF] text-[#414141] font-bold h-auto shadow-xl shadow-gray-800 rounded-xl lg:p-4'>
                     <div className='p-4'>
-                        <form>
+                        <form method='POST' data-netlify='true'>
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                                 <div className='flex flex-col'>
                                     <label className='uppercase text-sm py-2'>Name</label>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-400' type='text' />
+                                    <input className='border-2 rounded-lg p-3 flex border-gray-400' type='text' name='name' />
                                 </div>
                                 <div className='flex flex-col'>
                                     <label className='uppercase text-sm py-2'>Phone Number</label>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-400' type='text' />
+                                    <input className='border-2 rounded-lg p-3 flex border-gray-400' type='text' name='number' />
                                 </div>
                             </div>
                             <div className='flex flex-col py-2'>
                                 <label className='uppercase text-sm py-2'>Email</label>
-                                <input className='border-2 rounded-lg p-3 flex border-gray-400' type='email' />
+                                <input className='border-2 rounded-lg p-3 flex border-gray-400' type='email' name='email'/>
                             </div>
                             <div className='flex flex-col py-2'>
                                 <label className='uppercase text-sm py-2'>Subject</label>
-                                <input className='border-2 rounded-lg p-3 flex border-gray-400' type='text' />
+                                <input className='border-2 rounded-lg p-3 flex border-gray-400' type='text' name='subject' />
                             </div>
                             <div className='flex flex-col py-2'>
                                 <label className='uppercase text-sm py-2'>Message</label>
-                                <textarea className='border-2 rounded-lg p-3 border-gray-400' rows='10'></textarea>
+                                <textarea className='border-2 rounded-lg p-3 border-gray-400' rows='10' name='message'></textarea>
                             </div>
                             <button className='w-full p-4 text-[#eae8e8] mt-4'>Send Message</button>
                         </form>
