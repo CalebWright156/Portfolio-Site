@@ -9,7 +9,7 @@ const Main = () => {
             <div className='max-w-[1240px] w-full h-full mx-auto flex justify-center items-center'>
                 <div>
                 <h1 className='py-4 text-[#CFCFCF]'>
-                    Hi, I'm <span className='text-[#5aa2c9]'>Caleb</span>
+                    Hi, my name is <span className='text-[#5aa2c9]'>Caleb</span>
                 </h1>
                 <h1 className='py-2 text-[#CFCFCF]'>
                     Your Next Web Developer
