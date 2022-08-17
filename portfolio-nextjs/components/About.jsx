@@ -8,7 +8,7 @@ const About = () => {
             <p className='py-4 uppercase text-xl tracking-widest text-[#5aa2c9] font-bold'>About</p>
             <h2 className='py-4'>Who I Am</h2>
             <p className='py-2 text-[#CFCFCF]'>
-                I have spent the last few years studying psychology and accounting at University. I have always had a knack and love for technology and working with computers ever since childhood. Last year during my holidays I thought I would learn HTML and CSS to make edits for my friends small business website they was working on. What I thought would be a fun way to pass my time during University holidays has evolved into a love for programming. 
+                I have spent the last few years studying psychology and accounting at University. I have always had a knack and love for technology and working with computers ever since childhood. Last year during my holidays I thought I would learn HTML and CSS to make edits for my friends small business website they was working on. What initially began as a fun way to pass the time during University holidays has evolved into a love for programming. 
             </p>
             <p className='py-2 text-[#CFCFCF]'>
                 I was absolutely enthralled by the intricacies and nuance of modern web development and was driven to learn as much as possible. These days I am drawn to the capabilities of modern javascript frameworks and their ever evolving features. I am now spending my time learning new technologies and building projects primarily with React. 
