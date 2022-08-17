@@ -27,13 +27,13 @@ const Contact = () => {
                         <div>
                         <p className='uppercase pt-8'>Lets Connect</p>
                         <div className='flex items-center justify-between py-4'>
-                                <div className='rounded-full bg-[#CFCFCF] shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                <div className='rounded-full bg-[#CFCFCF] shadow-lg shadow-gray-800 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <FaLinkedinIn className='text-[#414141]'/>
                                 </div>
-                                <div className='rounded-full bg-[#CFCFCF] shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                <div className='rounded-full bg-[#CFCFCF] shadow-lg shadow-gray-800 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <FaGithub className='text-[#414141]'/>
                                 </div>
-                                <div className='rounded-full bg-[#CFCFCF] shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                <div className='rounded-full bg-[#CFCFCF] shadow-lg shadow-gray-800 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <AiOutlineMail className='text-[#414141]'/>
                                 </div>
                         </div>
@@ -48,24 +48,24 @@ const Contact = () => {
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                                 <div className='flex flex-col'>
                                     <label className='uppercase text-sm py-2'>Name</label>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-700' type='text' />
+                                    <input className='border-2 rounded-lg p-3 flex border-gray-400' type='text' />
                                 </div>
                                 <div className='flex flex-col'>
                                     <label className='uppercase text-sm py-2'>Phone Number</label>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-700' type='text' />
+                                    <input className='border-2 rounded-lg p-3 flex border-gray-400' type='text' />
                                 </div>
                             </div>
                             <div className='flex flex-col py-2'>
                                 <label className='uppercase text-sm py-2'>Email</label>
-                                <input className='border-2 rounded-lg p-3 flex border-gray-700' type='email' />
+                                <input className='border-2 rounded-lg p-3 flex border-gray-400' type='email' />
                             </div>
                             <div className='flex flex-col py-2'>
                                 <label className='uppercase text-sm py-2'>Subject</label>
-                                <input className='border-2 rounded-lg p-3 flex border-gray-700' type='text' />
+                                <input className='border-2 rounded-lg p-3 flex border-gray-400' type='text' />
                             </div>
                             <div className='flex flex-col py-2'>
                                 <label className='uppercase text-sm py-2'>Message</label>
-                                <textarea className='border-2 rounded-lg p-3 border-gray-700' rows='10'></textarea>
+                                <textarea className='border-2 rounded-lg p-3 border-gray-400' rows='10'></textarea>
                             </div>
                             <button className='w-full p-4 text-[#eae8e8] mt-4'>Send Message</button>
                         </form>
@@ -74,7 +74,7 @@ const Contact = () => {
             </div>
             <div className='flex justify-center py-12'>
                 <Link href=''>
-                    <div className='rounded-full bg-[#CFCFCF] shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
+                    <div className='rounded-full bg-[#CFCFCF] shadow-lg shadow-gray-800 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
                         <HiOutlineChevronDoubleUp size={20} className='text-[#414141]'/>
                     </div>
                 </Link>

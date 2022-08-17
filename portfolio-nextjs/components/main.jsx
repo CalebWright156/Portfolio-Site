@@ -19,13 +19,13 @@ const Main = () => {
                 </p>
                 {/* container for social links */}
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                    <div className='rounded-full bg-[#CFCFCF] shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
+                    <div className='rounded-full bg-[#CFCFCF] shadow-lg shadow-gray-800 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
                         <FaLinkedinIn className='text-[#414141]'/>
                     </div>
-                    <div className='rounded-full bg-[#CFCFCF] shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
+                    <div className='rounded-full bg-[#CFCFCF] shadow-lg shadow-gray-800 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
                         <FaGithub className='text-[#414141]'/>
                     </div>
-                    <div className='rounded-full bg-[#CFCFCF] shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
+                    <div className='rounded-full bg-[#CFCFCF] shadow-lg shadow-gray-800 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
                         <AiOutlineMail className='text-[#414141]'/>
                     </div>
                 </div>
