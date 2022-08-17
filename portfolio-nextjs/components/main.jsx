@@ -20,10 +20,10 @@ const Main = () => {
                 {/* container for social links */}
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                     <div className='rounded-full bg-[#CFCFCF] shadow-lg shadow-gray-800 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <FaLinkedinIn className='text-[#414141]'/>
+                        <a href="https://www.linkedin.com/in/caleb-wright-120934177/"><FaLinkedinIn className='text-[#414141]'/></a>
                     </div>
                     <div className='rounded-full bg-[#CFCFCF] shadow-lg shadow-gray-800 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <FaGithub className='text-[#414141]'/>
+                        <a href="https://github.com/CalebWright156"><FaGithub className='text-[#414141]'/></a>
                     </div>
                     <div className='rounded-full bg-[#CFCFCF] shadow-lg shadow-gray-800 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
                         <AiOutlineMail className='text-[#414141]'/>

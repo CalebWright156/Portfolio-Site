@@ -54,10 +54,9 @@ const Navbar = () =>{
                         </div>
                     </div>
                     <div className="border-b border-gray-300 my-4"> 
-                        <p className="w-[85%] text-[#414141] md:w-[90%] py-4">Lets build something together*CHANGE*</p>
                     </div>
                     <div className="py-4 flex-col">
-                        {/* Links to pages, similar to the nav*/}
+                        {/* Hamburger navbar*/}
                     <ul className="uppercase">
                         <Link href='/'>
                             <li onClick={() => setNav(false)} className="py-4 text-[#414141] text-sm">Home</li>
@@ -77,13 +76,13 @@ const Navbar = () =>{
                     </ul>
                     {/* container including links to Linkedin, github and email */}
                     <div className="pt-40 ">
-                        <p className="uppercase tracking-widest text-[#5aa2c9] font-bold">Lets connect *CHANGE*</p>
+                        <p className="uppercase tracking-widest text-[#5aa2c9] font-bold">Lets connect</p>
                         <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                             <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
-                                <FaLinkedinIn className='text-[#414141]'/>
+                                <a href="https://www.linkedin.com/in/caleb-wright-120934177/"><FaLinkedinIn className='text-[#414141]'/></a>
                             </div>
                             <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
-                                <FaGithub className='text-[#414141]'/>
+                                <a href="https://github.com/CalebWright156"><FaGithub className='text-[#414141]'/></a>
                             </div>
                             <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
                                 <AiOutlineMail className='text-[#414141]'/>
