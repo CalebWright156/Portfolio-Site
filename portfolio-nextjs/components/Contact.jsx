@@ -46,7 +46,7 @@ const Contact = () => {
                 {/* Right side */}
                 <div className='col-span-3 w-full bg-[#CFCFCF] text-[#414141] font-bold h-auto shadow-xl shadow-gray-800 rounded-xl lg:p-4'>
                     <div className='p-4'>
-                        <form method='post' data-netlify='true' name='contact' action='../pages/formsubmitted'>
+                        <form method='POST' data-netlify='true' name='contact' action='/formsubmitted'>
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                                 <div className='flex flex-col'>
                                     <label className='uppercase text-sm py-2'>Name</label>
@@ -69,7 +69,7 @@ const Contact = () => {
                                 <label className='uppercase text-sm py-2'>Message</label>
                                 <textarea className='border-2 rounded-lg p-3 border-gray-400' rows='10' name='message'></textarea>
                             </div>
-                            <button className='w-full p-4 text-[#eae8e8] mt-4'>Send Message</button>
+                            <button type='submit' className='w-full p-4 text-[#eae8e8] mt-4'>Send Message</button>
                         </form>
                     </div>
                 </div>
