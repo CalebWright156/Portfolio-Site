@@ -85,7 +85,9 @@ const Navbar = () =>{
                                 <a href="https://github.com/CalebWright156"><FaGithub className='text-[#414141]'/></a>
                             </div>
                             <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
-                                <AiOutlineMail className='text-[#414141]'/>
+                                <Link href='/#contact'>
+                                        <AiOutlineMail className='text-[#414141]'/>
+                                </Link>
                             </div>
                         </div>
                     </div>

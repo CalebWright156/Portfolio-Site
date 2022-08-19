@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { AiOutlineMail } from 'react-icons/ai'
+import Link from 'next/link'
 
 
 const Main = () => {
@@ -26,7 +27,9 @@ const Main = () => {
                         <a href="https://github.com/CalebWright156"><FaGithub className='text-[#414141]'/></a>
                     </div>
                     <div className='rounded-full bg-[#CFCFCF] shadow-lg shadow-gray-800 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <AiOutlineMail className='text-[#414141]'/>
+                        <Link href='/#contact'>
+                            <AiOutlineMail className='text-[#414141]'/>
+                        </Link>
                     </div>
                 </div>
                 </div>

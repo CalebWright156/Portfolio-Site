@@ -34,7 +34,9 @@ const Contact = () => {
                                     <a href="https://github.com/CalebWright156"><FaGithub className='text-[#414141]'/></a>
                                 </div>
                                 <div className='rounded-full bg-[#CFCFCF] shadow-lg shadow-gray-800 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <AiOutlineMail className='text-[#414141]'/>
+                                    <Link href='/#contact'>
+                                        <AiOutlineMail className='text-[#414141]'/>
+                                    </Link>
                                 </div>
                         </div>
                     </div>
@@ -44,7 +46,7 @@ const Contact = () => {
                 {/* Right side */}
                 <div className='col-span-3 w-full bg-[#CFCFCF] text-[#414141] font-bold h-auto shadow-xl shadow-gray-800 rounded-xl lg:p-4'>
                     <div className='p-4'>
-                        <form method='POST' data-netlify='true' name='contact' action='../pages/index.js'>
+                        <form method='POST' data-netlify='true' name='contact' action='../pages/formsubmitted'>
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                                 <div className='flex flex-col'>
                                     <label className='uppercase text-sm py-2'>Name</label>
