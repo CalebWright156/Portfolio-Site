@@ -16,7 +16,7 @@ const Main = () => {
                     Your Next Web Developer
                 </h1>
                 <p className='py-4 text-[#CFCFCF] max-w-[70%] m-auto'>
-                    A detail-oriented, software engineer with a deep interest in full stack development. Looking to bring my skills to a tech company with global reach
+                    A detail-oriented, software engineer with a deep interest in full stack development.
                 </p>
                 {/* container for social links */}
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>

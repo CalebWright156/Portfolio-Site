@@ -11,7 +11,7 @@ const About = () => {
                 I have spent the past few years studying Psychology and Accounting at the Queensland University of Technology of Technology in Australia. While I've always had a passion for technology and computer work, it wasn't until late 2021 that I started to learn coding. Initially, this was a great way for me to pass the time during the holidays. I worked with my friends to help them create websites for their small businesses and taught myself a wide range of skills. What began as a hobby has evolved into a passion for programming and learning.
             </p>
             <p className='py-2 text-[#CFCFCF]'>
-                I was enthralled by the intricacies and nuances of modern web development and drove myself to learn as much as possib;e. These days, I am drawn to the capabilities of modern javascript frameworks, and their ever evolving features. I spend my time learning new technologies, educating myself, and building projects.
+                I was enthralled by the intricacies and nuances of modern web development and drove myself to learn as much as possible. These days, I am drawn to the capabilities of modern javascript frameworks, and their ever evolving features. I spend my time learning new technologies, educating myself, and building projects.
             </p>
           </div>
           <div className='w-full h-auto m-auto shadow-xl shadow-gray-800 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
