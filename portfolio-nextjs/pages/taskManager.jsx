@@ -8,7 +8,7 @@ const taskManager = () => {
         projectPic={Tasks}
         name={'Task Manager'}
         mainTech={'Reactjs'}
-        description={'Task management application. Users can create tasks, have these tasks appear in a list where they can be highlighted to indicate a priority task, or deleted once completed. App utlises basic CRUD applications, as well as react hooks.'}
+        description={'Task management application. Users can create tasks, have these tasks appear in a list where they can be highlighted to indicate a priority task, or deleted once completed.'}
         techs={['HTML', 'CSS3', 'Javascript', 'Reactjs',]}
         gitHubLink={'https://github.com/CalebWright156/Task-Manager'}
     />
