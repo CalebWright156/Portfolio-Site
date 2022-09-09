@@ -17,7 +17,7 @@ const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-screen p-10'>
         <div className='max-w-p[1240px] mx-auto flex flex-col justify-center h-full'>
-            <p className='text-xl tracking-widest uppercase text-[#5aa2c9] font-bold'>Skills</p>
+            <p className='text-xl tracking-widest uppercase text-[#4984a4] font-bold'>Skills</p>
             <h2 className='py-4'>My Skills</h2>
             <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
                 <SkillImage imageSource={HTMLLogo} name={'HTML'}/>

@@ -9,7 +9,7 @@ html{
 
 @layer base {
     body {
-        @apply bg-[#414141] text-[#CFCFCF] tracking-wide
+        @apply bg-[#CFCFCF] text-[#414141] tracking-wide
     }
 
     h1, h2, h3, h4, h5, h6 {

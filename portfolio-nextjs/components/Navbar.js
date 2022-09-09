@@ -13,29 +13,29 @@ const Navbar = () =>{
     return (
         <div className="fixed w-full h-20 shadow-xl z-[150] bg-[#414141]">
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-                <span>*FUTURE LOGO*</span>
+                <span className="text-[#CFCFCF]">*FUTURE LOGO*</span>
                 <div>
                     {/* Links to pages */}
                     <ul className="hidden md:flex">
                         <Link href='/'>
-                            <li className="ml-10 text-sm uppercase hover:border-b hover:opacity-75">Home</li>
+                            <li className="ml-10 text-sm uppercase text-[#CFCFCF] hover:border-b hover:opacity-75">Home</li>
                         </Link>
                         <Link href='/#about'>
-                            <li className="ml-10 text-sm uppercase hover:border-b hover:opacity-75">About</li>
+                            <li className="ml-10 text-sm uppercase text-[#CFCFCF] hover:border-b hover:opacity-75">About</li>
                         </Link>
                         <Link href='/#skills'>
-                            <li className="ml-10 text-sm uppercase hover:border-b hover:opacity-75">Skills</li>
+                            <li className="ml-10 text-sm uppercase text-[#CFCFCF] hover:border-b hover:opacity-75">Skills</li>
                         </Link>
                         <Link href='/#projects'>
-                            <li className="ml-10 text-sm uppercase hover:border-b hover:opacity-75">Projects</li>
+                            <li className="ml-10 text-sm uppercase text-[#CFCFCF] hover:border-b hover:opacity-75">Projects</li>
                         </Link>
                         <Link href='/#contact'>
-                            <li className="ml-10 text-sm uppercase hover:border-b hover:opacity-75">Contact</li>
+                            <li className="ml-10 text-sm uppercase text-[#CFCFCF] hover:border-b hover:opacity-75">Contact</li>
                         </Link>
                     </ul>
                     {/* hamburger menu */}
                     <div onClick={toggleNav} className="md:hidden cursor-pointer">
-                        <AiOutlineMenu size={25}/>
+                        <AiOutlineMenu className="text-[#CFCFCF]" size={25}/>
                     </div>
                 </div>
             </div>
@@ -47,9 +47,9 @@ const Navbar = () =>{
                                     : 'fixed left-[-100%] top-0 ease-in duration-300'}>
                     <div>
                         <div className="flex w-full items-center justify-between">
-                            <span className="text-[#414141]">Future Logo</span>
+                            <span>Future Logo</span>
                             <div onClick={toggleNav} className="rounded-full shadow-lg shadow-grey-500 p-3 cursor-pointer">
-                                <AiOutlineClose className="text-[#414141]" />
+                                <AiOutlineClose/>
                             </div>
                         </div>
                     </div>
@@ -59,24 +59,24 @@ const Navbar = () =>{
                         {/* Hamburger navbar*/}
                     <ul className="uppercase">
                         <Link href='/'>
-                            <li onClick={() => setNav(false)} className="py-4 text-[#414141] text-sm">Home</li>
+                            <li onClick={() => setNav(false)} className="py-4 text-sm">Home</li>
                         </Link>
                         <Link href='/#about'>
-                            <li onClick={() => setNav(false)} className="py-4 text-[#414141] text-sm">About</li>
+                            <li onClick={() => setNav(false)} className="py-4 text-sm">About</li>
                         </Link>
                         <Link href='/#skills'>
-                            <li onClick={() => setNav(false)} className="py-4 text-[#414141] text-sm">Skills</li>
+                            <li onClick={() => setNav(false)} className="py-4 text-sm">Skills</li>
                         </Link>
                         <Link href='/#projects'>
-                            <li onClick={() => setNav(false)} className="py-4 text-[#414141] text-sm">Projects</li>
+                            <li onClick={() => setNav(false)} className="py-4 text-sm">Projects</li>
                         </Link>
                         <Link href='/#contact'>
-                            <li onClick={() => setNav(false)} className="py-4 text-[#414141] text-sm">Contact</li>
+                            <li onClick={() => setNav(false)} className="py-4 text-sm">Contact</li>
                         </Link>
                     </ul>
                     {/* container including links to Linkedin, github and email */}
                     <div className="pt-40 ">
-                        <p className="uppercase tracking-widest text-[#5aa2c9] font-bold">Lets connect</p>
+                        <p className="uppercase tracking-widest text-[#4984a4] font-bold">Lets connect</p>
                         <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                             <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
                                 <a href="https://www.linkedin.com/in/caleb-wright-120934177/"><FaLinkedinIn className='text-[#414141]'/></a>
